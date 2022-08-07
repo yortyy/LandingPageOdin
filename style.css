@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    align-items: stretch;
+    font-family: 'Roboto';
+}
+.workspacewidth {
+    width: 1000px;
+    display: flex;
+}
+
+
+.header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .workspacewidth {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.hlinks {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 16px;
+}
+
+
+.middle {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.m1 .workspacewidth {
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.wsa {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 4px;
+}
+.wsasub {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 4px;
+    width: 450px;
+}
+.wsabutton {
+    margin-top: 8px;
+    border-radius: 6px;
+    border: 0px;
+    padding: 8px 20px;
+    font-weight: 600;
+    color: #E5E7EB;
+    background-color: #3882F6;
+}
+.m1r {
+    height: auto;
+    width: 500px;
+}
+
+
+.m2 .workspacewidth {
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.m2 .workspacewidth .information {
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.footer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.header, .footer, .m1 {
+    background-color: #1F2937;
+}
+.m3 {
+    background-color: #E5E7EB;
+}
