@@ -32,9 +32,13 @@ body {
 }
 .hlinks {
     font-size: 18px;
-    color: #E5E7EB;
     display: flex;
     gap: 16px;
+}
+.hlink {
+    cursor: pointer;
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 
@@ -73,6 +77,7 @@ body {
     font-weight: 600;
     color: #E5E7EB;
     background-color: #3882F6;
+    cursor: pointer;
 }
 .m1r {
     height: auto;
@@ -120,8 +125,14 @@ body {
 .square {
     width: 150px;
     height: 150px;
+    
+}
+.squareimg {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
     border-style: solid;
-    border-radius: 9px;
+    border-radius: 10px;
     border-color: #3882F6;
     flex-shrink: 0;
 }
@@ -193,6 +204,7 @@ body {
     font-weight: 600;
     background-color: #3882F6;
     color: #E5E7EB;
+    cursor: pointer;
 }
 
 
