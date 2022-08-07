@@ -38,8 +38,8 @@ body {
 }
 
 
+
 .middle {
-    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,6 +51,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    height: 450px;
 }
 .wsa {
     font-size: 48px;
@@ -79,27 +80,130 @@ body {
 }
 
 
+
+
 .m2 .workspacewidth {
-    height: 400px;
+    height: 500px;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .m2 .workspacewidth .information {
-    height: 100px;
+    height: 150px;
     text-align: center;
     justify-content: center;
     align-items: center;
     display: flex;
+    flex-shrink: 0;
 
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    width: 150px;
+}
+.square {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-radius: 9px;
+    border-color: #3882F6;
+    flex-shrink: 0;
+}
+.squaresubtext {
+    font-size: 18px;
+    color: #1F2937
+}
+
+
+
+
+.m3 .workspacewidth {
+    width: 800px;
+    height: 450px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+.quotefrom {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #1F2937;
+    align-self: end;
+}
+
+
+
+
+.m4 .workspacewidth {
+    height: 450px;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+.bluecard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 50px 0px;
+    border-radius: 9px;
+    flex-shrink: 0;
+}
+.workspacewidthbc {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bct1 {
+    font-size: 22px;
+    font-weight: bolder;
+    color: #E5E7EB;
+}
+.bct2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.bluecardbutton {
+    border-radius: 6px;
+    border-color: #F9FAF8;
+    padding: 8px 26px;
+    font-weight: 600;
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+
+
 
 .footer {
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #F9FAF8;
 }
 
 
